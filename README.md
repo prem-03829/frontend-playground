@@ -9,14 +9,17 @@ This repository contains **32 HTML & CSS practice projects** that I built to imp
 - Each practice project is inside its own folder:
 ```
 HTML_CSS/
+├─ assets/
+│ └─ favicon.svg
+├─ css/
+│ ├─ output.css
+│ └─ style.css
 ├─ P01/
 ├─ P02/
 ├─ P03/
 ...
 ├─ P32/
-├─ index.html
-├─ output.css
-├─ style.css
+└─ index.html
 ```
 - Every folder contains an `index.html` file showcasing that particular practice.
 
