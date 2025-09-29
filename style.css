@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Poppins, sans-serif;
+
+  --header: #1E293B;         /* header background (slate-800) */
+  --background: #EEEEEE;     /* main background (slate-50) */
+  --accent: #3B82F6;         /* primary accent (blue-500) */
+  --accent-hover: #2563EB;   /* accent-hover (blue-600, for button/links hover) */
+  --text: #0EA5E9;           /* primary text (sky-500) */
+  --text-dark: #0C4A6E;      /* dark text for contrast (sky-800) */
+  --accent-text: #F0F7EE;
+  --text-hover: #DBEAFE;
+  --footer-border: #E9B3FB;  /* a lighter border for use in footer etc */
+  --shadow: 0 4px 16px rgba(59, 2, 112, 0.07); /* subtle dark purple shadow as example */
+}
+
+a.practice-link {
+    @apply bg-[var(--accent)] text-[var(--accent-text)] w-[50vw] text-center py-2 px-4  font-bold  hover:bg-[var(--accent-hover)] hover:text-[var(--text-hover)] transition duration-300 rounded-lg shadow-black md:text-2xl;
+}

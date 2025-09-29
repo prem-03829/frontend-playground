@@ -1,0 +1,22 @@
+.name{
+    display: block;
+    margin-bottom: 4px;
+}
+
+.email{
+    display: block;
+    margin-bottom: 100px;
+}
+
+p{
+    font-size: 20px;
+    display: inline-block;
+    width: 250px;
+    vertical-align: middle;
+}
+
+button{
+    font-size: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+}

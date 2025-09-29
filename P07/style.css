@@ -1,0 +1,32 @@
+p{
+    font-family: Montserrat;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.author{
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.id{
+    font-weight: normal;
+    color: grey;
+}
+
+.post{
+    font-size: 16px;
+    width: 500px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.con-post{
+    font-size: 16px;
+    width: 500px;
+}
+
+.tag{
+    color: rgb(37, 164, 255);
+    cursor: pointer;
+}

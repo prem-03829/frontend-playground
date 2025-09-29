@@ -1,0 +1,97 @@
+.back{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.next{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.pagination a{
+    margin: 6px;
+}
+
+.pagination{
+    margin: 20px;
+}
+
+.strech{
+    margin: 20px;
+}
+
+.strech button{
+    background-color: green;
+    color: white;
+    border-style: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: padding 0.5s;
+    cursor: pointer;
+}
+
+.strech button:hover{
+    padding-bottom: 24px;
+    padding-top: 24px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.click{
+    margin: 20px;
+}
+
+.click button{
+    background-color: green;
+    color: white;
+    border-style: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 4px 4px 5px black;
+    cursor: pointer;
+}
+
+.click button:hover{
+    margin-top: 4px;
+    margin-left: 4px;
+    box-shadow: none;
+}
+
+.threebutton{
+    margin: 20px;
+}
+
+.threebutton button{
+    background-color: green;
+    color: white;
+    border-style: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    cursor: pointer;
+    transition: padding 0.5s,margin 0.5s;
+}
+
+.threebutton button:hover{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}

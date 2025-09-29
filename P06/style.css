@@ -1,0 +1,29 @@
+p{
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.price{
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+
+.curr{
+    font-size: 16px;
+    color: grey;
+}
+
+.tax{
+    color: green;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.after{
+    color: grey;
+}
+
+.neg{
+    color: orangered;
+}

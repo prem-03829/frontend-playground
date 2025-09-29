@@ -1,0 +1,41 @@
+body{
+    font-family: arial;
+}
+
+p{
+    color: rgb(106, 106, 106);
+}
+
+.email{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+input{
+    width: 400px;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-width: 1px;
+}
+
+.cond{
+    font-size: 16px;
+}
+
+button{
+    background-color: rgb(65, 141, 255);
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 400px;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+button:hover{
+    opacity: 0.8;
+}

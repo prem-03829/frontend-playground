@@ -1,0 +1,53 @@
+body{
+    font-family: arial;
+}
+
+.header{
+    font-size: 40px;
+}
+
+input{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    background-color: rgb(240, 240, 240);
+    border-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 400px;
+}
+
+button{
+    margin-top: 35px;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.now{
+    background-color: black;
+    color: rgb(240, 240, 240);
+    border-style: none;
+    margin-right: 20px;
+    transition: opacity 0.15s;
+}
+
+.now:hover{
+    opacity: 0.8;
+}
+
+.later{
+    background-color: rgb(240, 240, 240);
+    color: black;
+    border-style: none;
+    transition: opacity 0.15s;
+}
+
+.later:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,48 @@
+body{
+    font-family: arial;
+}
+
+.circle{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.square{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 20px;    
+}
+
+.service{
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+    width: 308px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 4px;
+}
+
+.desc{
+    font-size: 14px;
+}

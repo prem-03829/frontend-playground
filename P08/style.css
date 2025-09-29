@@ -1,0 +1,20 @@
+.squircle{
+    width: 200px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100px;
+}
